@@ -16,7 +16,7 @@ export default function Clients() {
 
   return (
     <>
-      { !loading && !error && (
+      {!loading && !error && (
         <table className='table table-hover mt-3'>
           <thead>
             <tr>
@@ -34,7 +34,7 @@ export default function Clients() {
             }
           </tbody>
         </table>
-      ) }
+      )}
     </>
   )
 }
