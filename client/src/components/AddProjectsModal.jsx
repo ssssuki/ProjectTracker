@@ -4,7 +4,6 @@ import { useMutation, useQuery } from '@apollo/client';
 import { ADD_PROJECT } from '../mutations/projectMutations';
 import { GET_PROJECTS } from '../queries/projectQueries';
 import { GET_CLIENTS } from '../queries/clientQueries';
-import Spinner from './Spinner';
 
 export default function AddProjectsModal() {
   const [name, setName] = useState('');

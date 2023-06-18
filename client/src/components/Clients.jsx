@@ -1,6 +1,5 @@
 import { useQuery } from '@apollo/client';
 import ClientRow from './ClientRow';
-import Spinner from './Spinner';
 import { GET_CLIENTS } from '../queries/clientQueries';
 
 export default function Clients() {
