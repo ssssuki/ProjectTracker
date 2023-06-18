@@ -8,8 +8,8 @@ import { GET_CLIENTS } from '../queries/clientQueries';
 export default function AddProjectsModal() {
   const [name, setName] = useState('');
   const [description, setDescription] = useState('');
-  const [clientId, setClientId] = useState('');
   const [status, setStatus] = useState('new');
+  const [clientId, setClientId] = useState('');
 
   const [addProject] = useMutation(ADD_PROJECT, {
     variables: { name, description, status, clientId },
